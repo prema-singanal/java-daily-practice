@@ -63,6 +63,8 @@ public class AddTwoNumber{
 
 public class AddTwoNumber{
     public static int usingRecursion( int n){
+        // for recursion we have to define base case so that it does not go into infinite loop.
+        // here base case is when n is less than or equal to 1
         if( n <= 1){
             return n;
         }
