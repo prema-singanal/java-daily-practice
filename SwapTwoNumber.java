@@ -3,6 +3,13 @@ import java.util.Scanner;
 // using temp variable
 
 public class SwapTwoNumber {
+    
+    publci static void swapUsingArithematic( int a , int b ){
+        a = a + b ;
+        b = a - b;
+        a = a - b ;
+    }
+    
     public static void swapFunction( int a , int b ){
       int temp = b;
       a = b;
