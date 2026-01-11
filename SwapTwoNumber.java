@@ -8,6 +8,7 @@ public class SwapTwoNumber {
         a = a + b ;
         b = a - b;
         a = a - b ;
+       System.out.println(" Num1 = " + a + "Num2 =" + b);
     }
     
     public static void swapFunction( int a , int b ){
