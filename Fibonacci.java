@@ -1,4 +1,5 @@
 public class Fibonacci {
+    //printing series
     public static void printFibonacciSeries(int n){
     for(int i = 0 ; i < n ; i++ ){
         System.out.print(fibonacciIterative(i) + " ");
