@@ -1,4 +1,5 @@
 import java.util.Scanner;
+//
 
 public class Intrest {
     public static double calculateEMI(double principal, double rate, double time) {
